@@ -18,7 +18,6 @@ function getSteps() {
     return ["1. Product Info", "2. Media", "3. Pricing"];
 }
 
-
 function getStepContent(stepIndex, formData) {
     switch (stepIndex) {
         case 0:
