@@ -14,7 +14,7 @@ import Media from "./components/Media";
 import Pricing from "./components/Pricing";
 import Socials from "./components/Socials";
 import { form, initialValues, validations } from "../util";
-import { Form, Formik } from "formik";
+import { Form, Formik, useFormik, useField } from "formik";
 import { firestore } from "../../../firebase";
 
 function getSteps() {
